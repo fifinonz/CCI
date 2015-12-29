@@ -36,13 +36,6 @@ class CCI extends CI_Controller {
         $this->_load_view();
     }
     /* Secured Home Page */
-    public function my_home(){
-
-        $this->data['title'] 	= "Home Relay";
-        $this->data['main_content'] 	= "home";
-
-        $this->_secured_load_view();
-    }
 
     /* USER REGISTRATION*/
 
@@ -72,6 +65,13 @@ class CCI extends CI_Controller {
 
     }
 
+    public function cis(){
+
+        $this->data['title'] 	= "Cancer Info Service";
+        $this->data['main_content'] 	= "CIS";
+
+        $this->_load_view();
+    }
 
     public function donate(){
         $this->data['title'] 	= "Make a Donation";

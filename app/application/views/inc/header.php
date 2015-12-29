@@ -76,7 +76,7 @@
                     <li><a href="<?php echo base_url();?>CCI/vision">Vision</a></li>
                 </ul>
             </li>
-            <li><a href="<?php echo base_url();?>CCI/departments.html">Cancer Info Service</a></li>
+            <li><a href="<?php echo base_url();?>CCI/cis">Cancer Info Service</a></li>
 
             <li><a href="<?php echo base_url();?>CCI/contact-us.html">Programmes</a>
                 <ul>
