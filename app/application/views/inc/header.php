@@ -10,15 +10,15 @@
 
     <!--[if lt IE 9]>
     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css" media="screen">
     <!--[if lte IE 7]>
-    <link rel="stylesheet" href="style.ie7.css" media="screen"/><![endif]-->
-    <link rel="stylesheet" href="style.responsive.css" media="all">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.ie7.css" media="screen"/><![endif]-->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.responsive.css" media="all">
 
 
-    <script src="jquery.js"></script>
-    <script src="script.js"></script>
-    <script src="script.responsive.js"></script>
+    <script src="<?php echo base_url();?>assets/js/jquery.js"></script>
+    <script src="<?php echo base_url();?>assets/js/script.js"></script>
+    <script src="<?php echo base_url();?>assets/js/script.responsive.js"></script>
 
 
     <style>.art-content .art-postcontent-0 .layout-item-0 {
