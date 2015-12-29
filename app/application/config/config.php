@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/relayforlifekenya.org/app/';
+$config['base_url']	= 'http://localhost/childhoodcancerinitiative.org/app/';
 
 /*
 |--------------------------------------------------------------------------
