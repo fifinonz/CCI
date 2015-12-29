@@ -47,29 +47,31 @@ class CCI extends CI_Controller {
     /* USER REGISTRATION*/
 
 /* VIEW CONTROLLERS*/
-    public function what_is_relay()
-    {
-        $this->data['title'] 	= "About Us";
-        $this->data['main_content'] 	= "about";
-
-        $this->_load_view();
-
-    }
 
     public function about(){
         $this->data['title'] 	= "About Relay";
-        $this->data['main_content'] 	= "what-is-relay";
+        $this->data['main_content'] 	= "about";
 
         $this->_load_view();
     }
 
 
-    public function join_team(){
-        $this->data['title'] 	= "Participate in Relay 2015";
-        $this->data['main_content'] 	= "join_team";
+    public function mission(){
+        $this->data['title'] 	= "CCI Mission Statement";
+        $this->data['main_content'] 	= "about-us/mission";
 
         $this->_load_view();
     }
+    public function vision()
+    {
+        $this->data['title'] 	= "CCI Vision Statement";
+        $this->data['main_content'] 	= "about-us/vision";
+
+
+        $this->_load_view();
+
+    }
+
 
     public function donate(){
         $this->data['title'] 	= "Make a Donation";

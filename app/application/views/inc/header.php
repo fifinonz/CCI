@@ -69,38 +69,111 @@
 <div id="art-main">
     <nav class="art-nav">
         <ul class="art-hmenu">
-            <li><a href="home.html" class="active">Home</a></li>
-            <li><a href="about-us.html">About Us</a>
+            <li><a href="<?php echo base_url();?>CCI/home" class="active">Home</a></li>
+            <li><a href="<?php echo base_url();?>CCI/about">About Us</a>
                 <ul>
-                    <li><a href="about-us/mission.html">Mission</a></li>
-                    <li><a href="about-us/vision.html">Vision</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/mission">Mission</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/vision">Vision</a></li>
                 </ul>
             </li>
-            <li><a href="departments.html">Cancer Info Service</a></li>
+            <li><a href="<?php echo base_url();?>CCI/departments.html">Cancer Info Service</a></li>
 
-            <li><a href="contact-us.html">Programmes</a>
+            <li><a href="<?php echo base_url();?>CCI/contact-us.html">Programmes</a>
                 <ul>
-                    <li><a href="events/current-events.html">Treatment</a></li>
-                    <li><a href="events/up-comming-events.html">Educational Materials Development</a>
+                    <li><a href="<?php echo base_url();?>CCI/events/current-events.html">Treatment</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Educational Materials Development</a>
                         <ul>
-                            <li><a href="events/current-events.html">Booklet Series</a></li>
-                            <li><a href="events/up-comming-events.html">Video(DVD & CD) Series</a></li>
+                            <li><a href="<?php echo base_url();?>CCI/events/current-events.html">Booklet Series</a></li>
+                            <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Video(DVD & CD) Series</a></li>
                         </ul>
                     </li>
-                    <li><a href="events/current-events.html">Patient Support Advisory</a></li>
-                    <li><a href="events/current-events.html">Communications</a>
+                    <li><a href="<?php echo base_url();?>CCI/events/current-events.html">Patient Support Advisory</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/events/current-events.html">Communications</a>
                         <ul>
-                            <li><a href="events/up-comming-events.html">Health-care professionals</a></li>
-                            <li><a href="events/up-comming-events.html">General public</a></li>
+                            <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Health-care professionals</a></li>
+                            <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">General public</a></li>
                         </ul>
                     </li>
-                    <li><a href="events/up-comming-events.html">Childhood cancer patient-care support</a></li>
-                    <li><a href="events/up-comming-events.html">Health-care facility support</a></li>
-                    <li><a href="events/up-comming-events.html">Psycho-social Support</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Childhood cancer patient-care support</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Health-care facility support</a></li>
+                    <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Psycho-social Support</a></li>
 
                 </ul>
             </li>
-            <li><a href="gallery.html">Research</a></li>
-            <li><a href="contact-us.html">Resources</a></li>
+            <li><a href="<?php echo base_url();?>CCI/gallery.html">Research</a></li>
+            <li><a href="<?php echo base_url();?>CCI/contact-us.html">Resources</a></li>
         </ul>
     </nav>
+
+    <header class="art-header">
+        <div class="art-slider art-slidecontainerheader" data-width="900" data-height="260">
+            <div class="art-slider-inner">
+                <div class="art-slide-item art-slideheader0">
+
+                </div>
+                <div class="art-slide-item art-slideheader1">
+
+                </div>
+                <div class="art-slide-item art-slideheader2">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="art-slidenavigator art-slidenavigatorheader" data-left="93.33">
+            <a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#"
+                                                                                                             class="art-slidenavigatoritem"></a>
+        </div>
+
+
+        <div class="art-shapes">
+
+        </div>
+        <h1 class="art-headline" data-left="65.65%">
+            <a href="#">CHILDHOOD CANCER INITIATIVE</a>
+        </h1>
+
+        <h2 class="art-slogan" data-left="57.28%">Nairobi Kenya</h2>
+
+
+        <div class="art-textblock art-object1443087138" data-left="90%">
+            <form class="art-search" name="Search" action="javascript:void(0)">
+                <input type="text" value="">
+                <input type="submit" value="Search" name="search" class="art-search-button">
+            </form>
+        </div>
+
+
+    </header>
+    <div class="art-sheet clearfix">
+        <div class="art-layout-wrapper">
+            <div class="art-content-layout">
+                <div class="art-content-layout-row">
+                    <div class="art-layout-cell art-sidebar1">
+                        <div class="art-vmenublock clearfix">
+                            <div class="art-vmenublockheader">
+                                <h3 class="t">Quick Links</h3>
+                            </div>
+                            <div class="art-vmenublockcontent">
+                                <ul class="art-vmenu">
+                                    <li><a href="<?php echo base_url();?>CCI/about-us.html">Get Involved</a>
+                                        <ul>
+                                            <li><a href="<?php echo base_url();?>CCI/about-us/mission.html">Volunteer</a></li>
+                                            <li><a href="<?php echo base_url();?>CCI/about-us/vision.html">Make a Donation</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="<?php echo base_url();?>CCI/events.html">Events</a>
+                                        <ul>
+                                            <li><a href="<?php echo base_url();?>CCI/events/current-events.html">Current Events</a></li>
+                                            <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Up comming Events</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="<?php echo base_url();?>CCI/departments.html">Advocacy</a></li>
+                                    <li><a href="<?php echo base_url();?>CCI/training.html">Archives</a></li>
+                                    <li><a href="<?php echo base_url();?>CCI/gallery.html">Gallery</a></li>
+                                    <li><a href="<?php echo base_url();?>CCI/contact-us.html">Contact Us</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
