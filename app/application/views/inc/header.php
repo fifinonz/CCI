@@ -100,8 +100,8 @@
 
                 </ul>
             </li>
-            <li><a href="<?php echo base_url();?>CCI/gallery.html">Research</a></li>
-            <li><a href="<?php echo base_url();?>CCI/contact-us.html">Resources</a></li>
+            <li><a href="<?php echo base_url();?>CCI/research">Research</a></li>
+            <li><a href="<?php echo base_url();?>CCI/resource-center">Resources</a></li>
         </ul>
     </nav>
 

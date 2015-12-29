@@ -78,6 +78,19 @@ class CCI extends CI_Controller {
 
         $this->_load_view();
     }
+
+    public function research (){
+    $this->data['title'] 	= "Research";
+    $this->data['main_content'] 	= "research";
+
+    $this->_load_view();
+}
+    public function resource_center(){
+        $this->data['title'] 	= "Resource Center";
+        $this->data['main_content'] 	= "resource-center";
+
+        $this->_load_view();
+    }
     public function donate(){
         $this->data['title'] 	= "Make a Donation";
         $this->data['main_content'] 	= "donate";
@@ -94,12 +107,6 @@ class CCI extends CI_Controller {
         $this->_load_view();
     }
 
-    public function resource_center(){
-        $this->data['title'] 	= "Resource Center";
-        $this->data['main_content'] 	= "resource-center.html";
-
-        $this->_load_view();
-    }
 
 
 
@@ -111,12 +118,7 @@ class CCI extends CI_Controller {
     }
 
 
-    public function shujaa(){
-        $this->data['title'] 	= "Mashujaa | Cancer Warriors";
-        $this->data['main_content'] 	= "shujaa.html";
 
-        $this->_load_view();
-    }
 
     /*CONTACT US */
 
