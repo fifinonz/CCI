@@ -78,7 +78,7 @@
             </li>
             <li><a href="<?php echo base_url();?>CCI/cis">Cancer Info Service</a></li>
 
-            <li><a href="<?php echo base_url();?>CCI/contact-us.html">Programmes</a>
+            <li><a href="<?php echo base_url();?>CCI/programmes">Programmes</a>
                 <ul>
                     <li><a href="<?php echo base_url();?>CCI/events/current-events.html">Treatment</a></li>
                     <li><a href="<?php echo base_url();?>CCI/events/up-comming-events.html">Educational Materials Development</a>

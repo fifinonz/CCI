@@ -72,7 +72,12 @@ class CCI extends CI_Controller {
 
         $this->_load_view();
     }
+    public function programmes(){
+        $this->data['title'] 	= "CCI Programmes";
+        $this->data['main_content'] 	= "programmes";
 
+        $this->_load_view();
+    }
     public function donate(){
         $this->data['title'] 	= "Make a Donation";
         $this->data['main_content'] 	= "donate";
@@ -96,12 +101,7 @@ class CCI extends CI_Controller {
         $this->_load_view();
     }
 
-    public function faqs(){
-        $this->data['title'] 	= "Frequently Asked Questions";
-        $this->data['main_content'] 	= "faq.php";
 
-        $this->_load_view();
-    }
 
     public function contact_us(){
         $this->data['title'] 	= "Contact US";
