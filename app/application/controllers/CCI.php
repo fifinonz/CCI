@@ -2,7 +2,7 @@
 
 session_start(); //we need to start session in order to access it through CI
 
-class Relay extends MY_Controller {
+class CCI extends CI_Controller {
 
 
 /*    Required Libraries    */
@@ -10,7 +10,6 @@ class Relay extends MY_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->library('Cphpmailer');
-        $this->load->library('auth/ion_auth');
         $this->load->database();
         $this->load->library('cart');
         $this->load->library('session');
@@ -18,8 +17,7 @@ class Relay extends MY_Controller {
         $this->load->helper('form');
         $this->load->library('form_validation');
         $this->load->library('session');
-//		$this->load->model('app_model');
-//        $this->load->model('create_team_model');
+//        $this->load->model('');
 	}
 
 
